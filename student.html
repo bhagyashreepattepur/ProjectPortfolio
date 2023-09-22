@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student information</title>
+</head>
+<body>
+    <h2>Student information form</h2>
+
+    <form action="">
+        <label for="Student ID"> Student ID</label>
+        <input type="text"  required id="Student ID" name="Student ID"><br><br>
+
+        <label for="Student Name">Student Name</label>
+        <input type="text" required id="Student Name" name="Student Name"><br><br>
+
+        <label for="Student Email">Student Email</label>
+        <input type="email" required id="Student Email" name="Student Email"><br><br>
+
+        <label for="Student Phone Number">Student Phone Number</label>
+        <input type="number" required id="Student Phone Number" name="Student Phone Number"><br><br>
+
+        <label for="Select Stream">Select Stream</label>
+        <input list="Select" id="Select Stream" name="Select ">
+        <datalist id="Select">
+            <option>Engineering</option>
+            <option>BCA</option>
+            <option>BSC</option>
+            <option>BA</option>
+            <option>CA</option>
+            <label for="Technologies known:" >Technologies known</label>
+            <br><br>
+        </datalist>
+            <input type="checkbox" name="Java" id="Java">
+            <label for="Java"> Java</label><br><br>
+
+            <input type="checkbox" name="Python" id="Python">
+            <label for="Python">Python</label><br><br>
+
+            <input type="checkbox" name="SQL" id="SQL">
+            <label for="SQL">SQL</label><br><br>
+
+            <input type="checkbox" name="Html/CSS" id="Html/CSS">
+            <label for="Html/CSS"> Html/CSS</label><br><br>     
+        
+            <input type="checkbox" name="JDBC" id="JDBC">
+            <label for="JDBC">JDBC</label><br><br>
+
+            <label for="Gender:" >Skills</label>
+            <br><br>
+            <input type="radio" name="gen" id="male" value="male">
+            <label for="male"> male</label><br><br>
+
+            <input type="radio" name="gen" id="female" value="female">
+            <label for="female">female</label><br><br>
+
+            <input type="radio" name="gen" id="others" value="others">
+            <label for="others"> Java</label><br><br>
+            <input type="submit">
+    </form>
+</body>
+</html>
